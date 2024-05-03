@@ -25,7 +25,16 @@ const projectsData=[
         previewUrl:"https://nexflixclone.onrender.com/"
     },
     {
-        id:3,
+      id:3,
+      title:"My Portfolio",
+      description:"Creating this portfolio to showcase my work and helping me to connect with people.",
+      image:"/images/projects/Instagram.png",
+      tag:["All","Backend"],
+      gitUrl:"https://github.com/kishangupta4514/insta-backend",
+      previewUrl:"https://insta-zf5j.onrender.com/"
+  },
+    {
+        id:4,
         title:"Instagram Clone",
         description:"Creating an Instagram clone with robust backend functionalities, enabling users to share photos and connect seamlessly in a visually engaging social media environment.",
         image:"/images/projects/Instagram.png",
@@ -34,7 +43,7 @@ const projectsData=[
         previewUrl:"https://insta-zf5j.onrender.com/"
     },
     {
-        id:4,
+        id:5,
         title:"Wanderlust",
         description:"Wanderlust: Full-stack project delivering a seamless travel platform, enabling users to explore destinations, plan trips, and share experiences with elegance and functionality.",
         image:"/images/projects/Wanderlust.png",
@@ -43,7 +52,7 @@ const projectsData=[
         previewUrl:"https://airbnb-ayby.onrender.com/listings"
     },
     {
-        id:5,
+        id:6,
         title:"Study Notion",
         description:"Study Notion: A precise edtech website integrating frontend design and backend functionality for seamless studying, collaboration, and knowledge sharing.",
         image:"/images/projects/StudyNotion.png",

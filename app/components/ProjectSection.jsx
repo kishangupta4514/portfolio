@@ -29,7 +29,7 @@ const projectsData=[
       title:"My Portfolio",
       description:"Creating this portfolio to showcase my work and helping me to connect with people.",
       image:"/images/projects/Instagram.png",
-      tag:["All","Backend"],
+      tag:["All","Frontend"],
       gitUrl:"https://github.com/kishangupta4514/insta-backend",
       previewUrl:"https://insta-zf5j.onrender.com/"
   },

@@ -49,7 +49,7 @@ const projectsData=[
         image:"/images/projects/Wanderlust.png",
         tag:["All","Backend"],
         gitUrl:"https://github.com/kishangupta4514/Majorpro",
-        previewUrl:"https://airbnb-ayby.onrender.com/listings"
+        previewUrl:"https://airbnb-sl26.onrender.com/listings"
     },
     {
         id:6,

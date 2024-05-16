@@ -1,8 +1,10 @@
 "use client";
 import React, {useEffect, useState} from 'react'
 import emailjs from '@emailjs/browser';
-import GithubIcon from "../../public/downloadg.png"
-import LinkedinIcon from "../../public/downloadl.png";
+import GithubIcon from "../../public/Github.png"
+import LinkedinIcon from "../../public/Linkdein.png";
+import InstagramIcon from "../../public/InstagramIcon.png";
+import TwitterIcon from "../../public/twitterIcon.png";
 import Link from "next/link";
 import Image from "next/image";
 // import emailjs from "emailjs-com";
@@ -91,6 +93,12 @@ const EmailSection = () => {
         </Link>
         <Link href="https://www.linkedin.com/in/kishangupta4514/">
           <Image src={LinkedinIcon} alt="Linkedin Icon" className='w-10 h-10 rounded-full' />
+        </Link>
+        <Link href="https://twitter.com/kishangupta4514/">
+          <Image src={TwitterIcon} alt="Twitter Icon" className='rounded-full h-9 w-9 flex items-center justify-center border-0' />
+        </Link>
+        <Link href="https://www.instagram.com/_kishan_gupta__29/">
+          <Image src={InstagramIcon} alt="Instagram Icon" className='rounded-full h-9 w-9 flex items-center justify-center border-0' />
         </Link>
     </div>    
     </div>

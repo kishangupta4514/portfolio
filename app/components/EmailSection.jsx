@@ -5,6 +5,7 @@ import GithubIcon from "../../public/Github.png"
 import LinkedinIcon from "../../public/Linkdein.png";
 import InstagramIcon from "../../public/InstagramIcon.png";
 import TwitterIcon from "../../public/twitterIcon.png";
+import LeetcodeIcon from "../../public/leetcode.jpeg";
 import Link from "next/link";
 import Image from "next/image";
 // import emailjs from "emailjs-com";
@@ -99,6 +100,9 @@ const EmailSection = () => {
         </Link>
         <Link href="https://www.instagram.com/_kishan_gupta__29/">
           <Image src={InstagramIcon} alt="Instagram Icon" className='rounded-full h-9 w-9 flex items-center justify-center border-0' />
+        </Link>
+        <Link href="https://www.instagram.com/_kishan_gupta__29/">
+          <Image src={LeetcodeIcon} alt="Instagram Icon" className='rounded-full h-9 w-9 flex items-center justify-center border-0' />
         </Link>
     </div>    
     </div>
